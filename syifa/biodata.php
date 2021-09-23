@@ -19,8 +19,10 @@
         <?php
         $nama = "Nurani Syifa Wibowo";
         $nim = "192520002";
-        $alamat = "Kemiri,purworejo";
+        $alamat = "Kemiri,Purworejo";
         $email = "nuranisyifa01@gmail.com";
+        $Minat_TI = "Memperluas pengalaman";
+        $Universitas = "Universitas Muhammadiyah Purworejo";
         ?>
         <tr>
             <th colspan="3">
@@ -30,7 +32,7 @@
         <tr>
             <td><b>Nama</b></td>
             <td><?php echo "$nama"; ?></td>
-            <td rowspan="4"><img src="foto.jpg"></td>
+            <td rowspan="6"><img src="foto.jpg"></td>
         </tr>
         <tr>
             <td><b>Nim</b></td>
@@ -43,6 +45,14 @@
         <tr>
             <td><b>Email</b></td>
             <td><?php echo "$email"; ?></td>
+        </tr>
+        <tr>
+            <td><b>Minat_TI</b></td>
+            <td><?php echo "$Minat_TI"; ?></td>
+        </tr>
+        <tr>
+            <td><b>Universitas</b></td>
+            <td><?php echo "$Universitas"; ?></td>
         </tr>
     </table>
 </body>
